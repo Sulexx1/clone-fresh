@@ -1,38 +1,628 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.headerRap{
+    height: 50px;
+    width: 90%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo{
+    height: 120px;
+}
+.list{
+    width: 60%;
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.list >a{
+    color: white;
+}
+.navs{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, #d89ce7, #8101a1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.baby{
+    height: 500px;
+    width: 510px;
+    margin-bottom: 5px;
+    
+}
+.textbase{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.delight{
+   font-size: 60px;
+   font-weight: 40px;
+}
+.pman{
+    margin-top: 10px;
+}
+.btn1{
+    height: 30px;
+    width: 140px;
+    color: white;
+    background-color: rgb(167, 4, 167);
+}
+.btn2{
+    height: 30px;
+    width: 140px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.but{
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    height: 500px;
+    width: 100%;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.constWrap{
+    height: 450px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.theboy{
+    height: 450px;
+    width: 500px;
+}
+.business{
+    height: 450px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.software{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.bot1{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.cubot{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(196, 195, 195);
+    border-radius: 5px;
+}
+.itbot{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(196, 195, 195);
+    border-radius: 5px;
+}
+.bot2{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hrbot{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(196, 195, 195);
+    border-radius: 5px;
+}
+.sabot{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(196, 195, 195);
+    border-radius: 5px;
+}
+.bot3{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mabot{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(196, 195, 195);
+    border-radius: 5px;
+}
+.aibot{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(196, 195, 195);
+    border-radius: 5px;
+}
+.frictionless{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.frictionH{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.fricWrap{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.theP{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+h4{
+    font-size: 20px;
+}
+.base{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basewrap{
+    height: 500px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.dollar{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.eye{
+    height: 80px;
+}
+.money{
+    height: 80px;
+}
+.get{
+    height: 20px;
+    width: 50%;
+}
+h5{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.our{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.base2{
+        height: 250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.dollar2{
+    display: flex;
+}
+.coin{
+    height: 80px;
+}
+.time{
+    height: 80px;
+}
+.dollar2Wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+    height: 250px;
+}
+.me{
+    width: 50%;
+    height: 100%;
+}
+.frictionH{
+    background-color: black;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+.me >a{
+    color: red;
+}
+.get >a{
+    color: red;
+}
+.logospart{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logowrap{
+    height: 570px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerpage{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+.trusted{
+    color: black;
+}
+.headertext{
+    font-size: 15px;
+}
+.logosCollection{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logolist1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logolist1a >img{
+    height: 50px;
+    width: 90%;
+}
+.logolist1b >img{
+    width: 50%;
+}
+.logolist1c >img{
+    width: 50%;
+}
+.logolist1d >img{
+    width: 50%;
+}
+.logolist1e >img{
+    width: 50%;
+}
+.logolist2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logolist2a >img{
+    height: 50px;
+    width: 90%;
+}
+.logolist2b >img{
+    width: 50%;
+}
+.logolist2c >img{
+    width: 50%;
+}
+.logolist2d >img{
+    width: 50%;
+}
+.logolist2e >img{
+    width: 50%;
+}
+.logolist3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logolist3a >img{
+    height: 50px;
+    width: 90%;
+}
+.logolist3b >img{
+    width: 50%;
+}
+.logolist3c >img{
+    width: 50%;
+}
+.logolist3d >img{
+    width: 50%;
+}
+.logolist3e >img{
+    width: 50%;
+}
+.logolist4{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logolist4a >img{
+    width: 50%;
+}
+.logolist4b >img{
+    width: 50%;
+}
+.logolist4c >img{
+    width: 50%;
+}
+.theTeam{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamHold{
+    height: 470px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.myhead{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mybody{
+    height: 370px;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mybody >p{
+    font-size: 20px;
+}
+.mybodyH{
+    color: black;
+    margin-top: 15px;
+}
+.myheadIMG >img{
+    height: 200px;
+}
+.thePeople{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people{
+    height: 580px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.docHead{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttonP{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theButton{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(1, 1, 46);
+    color: white;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.peoples{
+    height: 380px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.people1{
+    height: 380px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.oga >img{
+    height: 160px;
+}
+.culture >h5{
+    font-size: 30px;
+    color: black;
+}
+.mrFresh{
+    background-image: url(./images/fresh.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.freshP{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.freshP >p{
+    text-align: center;
+    margin-bottom: 17px;
+    color: white;
+}
+.freshP >h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.contactB{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.theList{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mrThelist{
+    height: 570px;
+    width: 95%;
+    display: flex; 
+    
+}
+.listThem{
+    height: 570px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.onpoint{
+    height: 60px;
+}
+.company{
+    color: black;
+}
+.contactC{
+    width: 40%;
+    height: 200px;
+}
+.connect{
+    color: black;
+    font-size: 15px;
+}
+.connect1{
+    display: flex;
+}
+.connect1 >img{
+    height: 50px;
+    border-radius: 100%;
+}
+.connect2{
+    display: flex;
+}
+.connect2 >img{
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+.mycompany >li{
+    margin: 15px;
+}
+.mrFresh1 >li{
+    margin: 15px;
+}
+.mrLast{
+    background-color: #9e9d9e;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goodluck{
+    height: 70px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
